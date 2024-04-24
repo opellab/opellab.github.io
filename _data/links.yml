@@ -4,6 +4,12 @@
   text: For a full list of publications please see
   delayT1: .05s
   delayT0: .0s
+- name: Collaboration DZPG
+  icon: fa-globe
+  link: https://www.dzpg.org/
+  text: German Center for Mental Health
+  delayT1: .15s 
+  delayT0: .1s 
 - name: Collaboration CIRC
   icon: fa-globe
   link: https://c-i-r-c.de/
