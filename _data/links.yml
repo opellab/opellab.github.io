@@ -1,0 +1,36 @@
+- name: Publications
+  icon: fa-book
+  link: https://pubmed.ncbi.nlm.nih.gov/?term=opel+n&sort=date
+  text: For a full list of publications please see
+  delayT1: .05s
+  delayT0: .0s
+- name: Collaboration CIRC
+  icon: fa-globe
+  link: https://c-i-r-c.de/
+  text: CIRC / Center for Intervention and Research on adaptive and maladaptive brain Circuits underlying mental health
+  delayT1: .15s 
+  delayT0: .1s 
+- name: Collaboration ENIGMA  
+  icon: fa-globe
+  link: https://enigma.ini.usc.edu/
+  text: ENIGMA Consortium
+  delayT1: .25s
+  delayT0: .2s
+- name: Collaboration GEMRIC  
+  icon: fa-globe
+  link: https://helse-bergen.no/en/avdelinger/psykisk-helsevern/forskingsavdelinga-divisjon-psykisk-helsevern/gemric-the-global-ect-mri-research-collaboration
+  text: GEMRIC Consortium
+  delayT1: .35s
+  delayT0: .3s
+- name: Collaboration ECNP  
+  icon: fa-globe
+  link: https://www.ecnp.eu/research-innovation/networks-thematic-working-groups/List-ECNP-Networks/digital-health-applied-clinical-research-brain-disorders
+  text: ECNP Digital Health Applied to the Clinical Research of Brain Disorders Network
+  delayT1: .45s
+  delayT0: .4s
+- name: Social Media
+  icon: fa-twitter
+  link: https://twitter.com/opelnils?lang=de
+  text: Follow us on twitter  
+  delayT1: .55s
+  delayT0: .5s

@@ -1,0 +1,75 @@
+<section id="links">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading wow fadeIn" data-wow-delay="0s">Links</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            {% for link in site.data.links %}
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x {{ link.icon }} wow bounceIn text-primary" data-wow-delay="{{ link.delayT0 }}"></i>
+                    <h3 class="wow fadeIn" data-wow-delay="0s">{{ link.name }}</h3>
+                    <a href="{{ link.link }}" target="_blank">
+                    <p class="text-muted wow fadeIn" data-wow-delay="{{ link.delayT1 }}">{{ link.text }}</p>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+            <!--
+            <div class="col-lg-4 col-md-3 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                    <h3 class="wow fadeIn" data-wow-delay="0.1s">Collaboration: CIRC</h3>
+                    <a href="https://c-i-r-c.de/" target="_blank">
+                    <p class="text-muted wow fadeIn" data-wow-delay=".15s">CIRC / Center for Intervention and Research on adaptive and maladaptive brain Circuits underlying mental health</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-3 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                    <h3 class="wow fadeIn" data-wow-delay="0.2s">Collaboration: ENIGMA</h3>
+                    <a href="https://enigma.ini.usc.edu/" target="_blank">
+                    <p class="text-muted wow fadeIn" data-wow-delay=".25s">ENIGMA Consortium</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-3  text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                    <h3 class="wow fadeIn" data-wow-delay="0.3s">Collaboration: GEMRIC</h3>
+                    <a href="https://helse-bergen.no/en/avdelinger/psykisk-helsevern/forskingsavdelinga-divisjon-psykisk-helsevern/gemric-the-global-ect-mri-research-collaboration" target="_blank">
+                    <p class="text-muted wow fadeIn" data-wow-delay=".35s">GEMRIC Consortium</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-3  text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                    <h3 class="wow fadeIn" data-wow-delay="0.4s">Collaboration: ECNP</h3>
+                    <a href="https://www.ecnp.eu/research-innovation/networks-thematic-working-groups/List-ECNP-Networks/digital-health-applied-clinical-research-brain-disorders" target="_blank">
+                    <p class="text-muted wow fadeIn" data-wow-delay=".45s">ECNP Digital Health Applied to the Clinical Research of Brain Disorders Network   </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-3   text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-twitter wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                    <h3 class="wow fadeIn" data-wow-delay="0.5s">Social Media</h3>
+                    <a href="https://twitter.com/opelnils?lang=de" target="_blank">
+                    <p class="text-muted wow fadeIn" data-wow-delay=".55s">Follow us on twitter</p>
+                    </a>
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+</section>

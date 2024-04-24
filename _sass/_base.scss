@@ -27,6 +27,30 @@ a {
     }
 }
 
+.icon-container {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 50px;
+  }
+  .iconSprite {
+    margin: 0 0px; /* Abstand zwischen den Icons */
+    font-size: 4px; /* Größe der Icons anpassen */
+  }
+
+.contact-text {
+    height: 80px;
+    text-align: center;
+    hyphens: auto;
+}
+
+.animated-text {
+    animation: slide 1s ease-out;
+  }
+
+.row-offset {
+    margin-bottom: 50px; /* Ändere den Wert nach Bedarf für den Abstand zwischen den Zeilen */
+  }
+
 h1,
 h2,
 h3,
